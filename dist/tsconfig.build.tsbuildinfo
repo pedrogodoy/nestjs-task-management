@@ -1151,14 +1151,19 @@
         "signature": "ceadf8ae9b705cdfa854ab0efc44d22509e8e2a0d9ff35206bde3a954e469f07",
         "affectsGlobalScope": false
       },
+      "../src/tasks/task.model.ts": {
+        "version": "78f6ce7a8b8f5312730d50610aaaf2066eefece3a5cc58ac3ddbf5f281740ffc",
+        "signature": "1f1972745fd56e4323782ccdc86730f1ae6b07fc29012c7c2a2872104f6d6fca",
+        "affectsGlobalScope": false
+      },
       "../src/tasks/tasks.service.ts": {
-        "version": "6ad216726c0783fdd7c93b07c66ec7b437deff505473d4f9d5ea0f95bf78ff61",
-        "signature": "c7b7a4ec8c1f2ed88fc70b256e45ddf8458cb295debebd89fd4e302a8d749695",
+        "version": "0d48d500eb526f3303231dc7e73905674336d5d6d6a212088edfda19a0da5324",
+        "signature": "a0d2ac7b0b8df11b5c7ca216367dcb8de2a3f32587234d317453758a0de163dd",
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.controller.ts": {
-        "version": "0fea942ba49f304d32472458c5f2cfddc7483bab53ab928c632a5b9ae41d24fc",
-        "signature": "b0ab160a001c63a22dcfcf79f5e5d35c36bf61f346a3adce9bb26bd36cd192c7",
+        "version": "9d507e76b7fbd95ed287d93fb12733f7fa7b2501ccc97e1a7851a548467c52a7",
+        "signature": "29ed76d4ea8483ac7c81bded6562563c62a2f056f985df7c2e2e3c168691d160",
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.module.ts": {
@@ -5154,6 +5159,13 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/app.module.ts"
       ],
+      "../src/tasks/task.model.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
       "../src/tasks/tasks.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -5161,6 +5173,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
+        "../src/tasks/task.model.ts",
         "../src/tasks/tasks.service.ts"
       ],
       "../src/tasks/tasks.module.ts": [
@@ -5179,7 +5192,8 @@
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
+        "../node_modules/@types/node/util.d.ts",
+        "../src/tasks/task.model.ts"
       ]
     },
     "exportedModulesMap": {
@@ -8448,7 +8462,11 @@
         "../node_modules/@types/node/util.d.ts"
       ],
       "../src/tasks/tasks.controller.ts": [
+        "../src/tasks/task.model.ts",
         "../src/tasks/tasks.service.ts"
+      ],
+      "../src/tasks/tasks.service.ts": [
+        "../src/tasks/task.model.ts"
       ]
     },
     "semanticDiagnosticsPerFile": []
