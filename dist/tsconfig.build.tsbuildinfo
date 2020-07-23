@@ -1156,14 +1156,19 @@
         "signature": "1f1972745fd56e4323782ccdc86730f1ae6b07fc29012c7c2a2872104f6d6fca",
         "affectsGlobalScope": false
       },
+      "../src/tasks/create-task.dto.ts": {
+        "version": "3b696c8fb77178765df56b9c87d6303145c364ea33344bd4c17be352b522d807",
+        "signature": "b1d26f03607e121c7317f85d8725d2562ea98694c85f768a3db85be2488756e3",
+        "affectsGlobalScope": false
+      },
       "../src/tasks/tasks.service.ts": {
-        "version": "23f2754baf97e4010b0a6aa64d2961c190ec856d52913652e0ef843c19ae4cd2",
-        "signature": "3707805e5aa14537822ecf1fca0cb2e826c7050d2a0e23be283bfbc972c7fadf",
+        "version": "db15aae78e8a9ad2c87db29c930cc9deac8102c281fd3aacd9306e1b9c74114d",
+        "signature": "b87bb373e824d6657ed84cf96ac6eeea4c4d073f4b08af9297baf925363ade57",
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.controller.ts": {
-        "version": "39fd0e037f08a5550cce7b09f335e1ef408d2b08235b7e293662860eb42fd320",
-        "signature": "c8f245274884fdfd890bda5995b1af1b6a0876b51e2b56bfadd8e5d4f62af25d",
+        "version": "327054c2141fe83f669e7939cf25585c4f7b1379cf03cea206724811515e35d9",
+        "signature": "7fd030f053f21bec68cd1175491c81e7f39c6b355e8a98a9f517c2c903813d8b",
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.module.ts": {
@@ -5159,6 +5164,13 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/app.module.ts"
       ],
+      "../src/tasks/create-task.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
       "../src/tasks/task.model.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -5173,6 +5185,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
+        "../src/tasks/create-task.dto.ts",
         "../src/tasks/task.model.ts",
         "../src/tasks/tasks.service.ts"
       ],
@@ -5193,6 +5206,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
+        "../src/tasks/create-task.dto.ts",
         "../src/tasks/task.model.ts"
       ]
     },
@@ -8462,10 +8476,12 @@
         "../node_modules/@types/node/util.d.ts"
       ],
       "../src/tasks/tasks.controller.ts": [
+        "../src/tasks/create-task.dto.ts",
         "../src/tasks/task.model.ts",
         "../src/tasks/tasks.service.ts"
       ],
       "../src/tasks/tasks.service.ts": [
+        "../src/tasks/create-task.dto.ts",
         "../src/tasks/task.model.ts"
       ]
     },
