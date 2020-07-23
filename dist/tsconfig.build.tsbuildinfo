@@ -1156,19 +1156,24 @@
         "signature": "1f1972745fd56e4323782ccdc86730f1ae6b07fc29012c7c2a2872104f6d6fca",
         "affectsGlobalScope": false
       },
-      "../src/tasks/create-task.dto.ts": {
+      "../src/tasks/dto/create-task.dto.ts": {
         "version": "3b696c8fb77178765df56b9c87d6303145c364ea33344bd4c17be352b522d807",
         "signature": "b1d26f03607e121c7317f85d8725d2562ea98694c85f768a3db85be2488756e3",
         "affectsGlobalScope": false
       },
+      "../src/tasks/dto/get-tasks-filter.dto.ts": {
+        "version": "321713c1e64b65bafe90c70703e9ef258bf3c895848f41c7df19e10dcd4c9506",
+        "signature": "7f0ca1fbc5f1207f92309148e2a4fb5bb220bac270679a67a1c3c6d4b485c727",
+        "affectsGlobalScope": false
+      },
       "../src/tasks/tasks.service.ts": {
-        "version": "46f8c8af600e50f0ce0cbf953c23db191dcc0027707faec98d9403ca0ebd6686",
-        "signature": "1995a1d23fabb01b11a59244aa88c65f240ec3a80f4ac96120cde19ef2385d97",
+        "version": "9511a229ff60e7adba230e8d49595bc645a45d277b533d1cee7356b3227df5bd",
+        "signature": "2315d94d0e4444dba2871d297fc97d68e14da2abe3626123c8a113f7bebd398b",
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.controller.ts": {
-        "version": "cc738a40cfae877f81c7328bda4f0602dfe330e166ec900090707ef52119e2ca",
-        "signature": "494eba262818b33d08964e95a5684f2316a93047272b22a1fe55d08e1579ed8e",
+        "version": "aed9e15848da58830fe02afbf53e6397e8bc1e08cfd736896c9be6d18a09af7e",
+        "signature": "fe0fe9099f18f9697f9e73a124084e792f7fb5222a7fd722efd6ffc53df2c937",
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.module.ts": {
@@ -5164,12 +5169,20 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/app.module.ts"
       ],
-      "../src/tasks/create-task.dto.ts": [
+      "../src/tasks/dto/create-task.dto.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/tasks/dto/get-tasks-filter.dto.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/tasks/task.model.ts"
       ],
       "../src/tasks/task.model.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -5185,7 +5198,8 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../src/tasks/create-task.dto.ts",
+        "../src/tasks/dto/create-task.dto.ts",
+        "../src/tasks/dto/get-tasks-filter.dto.ts",
         "../src/tasks/task.model.ts",
         "../src/tasks/tasks.service.ts"
       ],
@@ -5206,7 +5220,8 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../src/tasks/create-task.dto.ts",
+        "../src/tasks/dto/create-task.dto.ts",
+        "../src/tasks/dto/get-tasks-filter.dto.ts",
         "../src/tasks/task.model.ts"
       ]
     },
@@ -8475,13 +8490,18 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
+      "../src/tasks/dto/get-tasks-filter.dto.ts": [
+        "../src/tasks/task.model.ts"
+      ],
       "../src/tasks/tasks.controller.ts": [
-        "../src/tasks/create-task.dto.ts",
+        "../src/tasks/dto/create-task.dto.ts",
+        "../src/tasks/dto/get-tasks-filter.dto.ts",
         "../src/tasks/task.model.ts",
         "../src/tasks/tasks.service.ts"
       ],
       "../src/tasks/tasks.service.ts": [
-        "../src/tasks/create-task.dto.ts",
+        "../src/tasks/dto/create-task.dto.ts",
+        "../src/tasks/dto/get-tasks-filter.dto.ts",
         "../src/tasks/task.model.ts"
       ]
     },
