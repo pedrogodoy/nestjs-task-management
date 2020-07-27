@@ -1781,21 +1781,6 @@
         "signature": "2ac9fa4a7af627b5262af8b5ffa2322c1a53895cd18c5a0707d89be2a7945621",
         "affectsGlobalScope": false
       },
-      "../src/tasks/tasks.service.ts": {
-        "version": "f0330476fdb93df3bdddd6132c089e4e12c4d2ed7b59b6360c775fc3a102d02c",
-        "signature": "c7b7a4ec8c1f2ed88fc70b256e45ddf8458cb295debebd89fd4e302a8d749695",
-        "affectsGlobalScope": false
-      },
-      "../src/tasks/pipes/task-status-validation.pipe.ts": {
-        "version": "efb7f4159afd9e242ed4ac1841b4a5b92f7e6ca722bc7118fbfbc4cb1ad5a226",
-        "signature": "fc97771cbb78d06490e5f2c0361dcba802d1af339ef6008ea757c0baa8f66e0f",
-        "affectsGlobalScope": false
-      },
-      "../src/tasks/tasks.controller.ts": {
-        "version": "74a3c01f079e69b6a996e7e4fb3a676ebd90697f9f1cf2a98bb62cb0665b231d",
-        "signature": "b0ab160a001c63a22dcfcf79f5e5d35c36bf61f346a3adce9bb26bd36cd192c7",
-        "affectsGlobalScope": false
-      },
       "../node_modules/typeorm/schema-builder/options/TableColumnOptions.d.ts": {
         "version": "222ebf19b1260582fd2023a65c5b7da77f730021f05afb9c4ead4b0b339a8c98",
         "signature": "222ebf19b1260582fd2023a65c5b7da77f730021f05afb9c4ead4b0b339a8c98",
@@ -3056,6 +3041,16 @@
         "signature": "26d590f7fc94dc8bd476aab67a6047b39a72b0dcbdb7c5ce1dbd369762d63e4f",
         "affectsGlobalScope": false
       },
+      "../src/tasks/task.entity.ts": {
+        "version": "7d02a468482475aef2c2fba9fa469ea3fa21a670091ebcd18dd57f525e0f71a0",
+        "signature": "675113a6269485838b8480bcfb0bb33550d649792b18c0c13bdff2b10729dc10",
+        "affectsGlobalScope": false
+      },
+      "../src/tasks/task.repository.ts": {
+        "version": "b944aed5ba045944ab51ea6b37034e4d8fbbe44c22dbf5960c98b92eb79dbd47",
+        "signature": "c8817469d239295c9132f3348d0dd0eb99cb6c3a219b9855382b97151ec35b73",
+        "affectsGlobalScope": false
+      },
       "../node_modules/@nestjs/typeorm/dist/interfaces/entity-class-or-schema.type.d.ts": {
         "version": "e15db0d01139d39213a40639352debd92786f311e0421c21ac97c2ca4003a299",
         "signature": "e15db0d01139d39213a40639352debd92786f311e0421c21ac97c2ca4003a299",
@@ -3101,14 +3096,19 @@
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
         "affectsGlobalScope": false
       },
-      "../src/tasks/task.entity.ts": {
-        "version": "7d02a468482475aef2c2fba9fa469ea3fa21a670091ebcd18dd57f525e0f71a0",
-        "signature": "675113a6269485838b8480bcfb0bb33550d649792b18c0c13bdff2b10729dc10",
+      "../src/tasks/tasks.service.ts": {
+        "version": "c18bfbf1984aae52ea5f3684384a88e7c542fabedc10a15012e1b8ec9a24cdf6",
+        "signature": "7eb6340ff1f6aae47cfb8cbbcd2b1d41a9ae0fe44cf5f60eb1087aebb615a9f6",
         "affectsGlobalScope": false
       },
-      "../src/tasks/task.repository.ts": {
-        "version": "b944aed5ba045944ab51ea6b37034e4d8fbbe44c22dbf5960c98b92eb79dbd47",
-        "signature": "c8817469d239295c9132f3348d0dd0eb99cb6c3a219b9855382b97151ec35b73",
+      "../src/tasks/pipes/task-status-validation.pipe.ts": {
+        "version": "efb7f4159afd9e242ed4ac1841b4a5b92f7e6ca722bc7118fbfbc4cb1ad5a226",
+        "signature": "fc97771cbb78d06490e5f2c0361dcba802d1af339ef6008ea757c0baa8f66e0f",
+        "affectsGlobalScope": false
+      },
+      "../src/tasks/tasks.controller.ts": {
+        "version": "3aebf4a9f8c23777082082e2d3c28bb69c3c8a8985b416af1c6c079f5b9ed871",
+        "signature": "0d04bbdfd8338b25260baf2e0b7106d7cc4a8e23a1a985dbb96bd4478551def9",
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.module.ts": {
@@ -10871,6 +10871,7 @@
         "../src/tasks/dto/create-task.dto.ts",
         "../src/tasks/dto/get-tasks-filter.dto.ts",
         "../src/tasks/pipes/task-status-validation.pipe.ts",
+        "../src/tasks/task.entity.ts",
         "../src/tasks/tasks.service.ts"
       ],
       "../src/tasks/tasks.module.ts": [
@@ -10887,13 +10888,16 @@
       ],
       "../src/tasks/tasks.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../src/tasks/dto/create-task.dto.ts",
-        "../src/tasks/dto/get-tasks-filter.dto.ts"
+        "../src/tasks/dto/get-tasks-filter.dto.ts",
+        "../src/tasks/task.entity.ts",
+        "../src/tasks/task.repository.ts"
       ]
     },
     "exportedModulesMap": {
@@ -17871,7 +17875,12 @@
         "../src/tasks/task.entity.ts"
       ],
       "../src/tasks/tasks.controller.ts": [
+        "../src/tasks/task.entity.ts",
         "../src/tasks/tasks.service.ts"
+      ],
+      "../src/tasks/tasks.service.ts": [
+        "../src/tasks/task.entity.ts",
+        "../src/tasks/task.repository.ts"
       ]
     },
     "semanticDiagnosticsPerFile": []
