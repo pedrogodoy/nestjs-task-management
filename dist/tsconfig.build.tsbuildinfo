@@ -3047,8 +3047,8 @@
         "affectsGlobalScope": false
       },
       "../src/tasks/task.repository.ts": {
-        "version": "94b7ac6e8ec192969ead177d0ed565ce3b04eea3afb648d3f94386410e0cec94",
-        "signature": "9aada210bccb05eb68360c4983cd2b83598a10ece93a82867b3108950b49df08",
+        "version": "69437148271d9bb48db3c4d24407b5ddae0266df24f3f9567aed2548a919da5f",
+        "signature": "1fd18c65c367f221840227d6e2cc7ee4ebe29ed25d3a89b36842d76f0cde679b",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/typeorm/dist/interfaces/entity-class-or-schema.type.d.ts": {
@@ -3097,8 +3097,8 @@
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.service.ts": {
-        "version": "a2bdebe19e60351b7d9095a4d958e883c23fcbfb480b039c50308e6887015225",
-        "signature": "a4654f2a09d18b0bd02060f3a695a81ae21d938558a785760d9a8a1edd8659de",
+        "version": "99b559afc8826153d69c100b40139223756ecf7bca791ccb059104c304ace252",
+        "signature": "3c088e49b6d252535e6f941e9adf9dc6fe27c8ddba8ab4770bc16ea43b88c236",
         "affectsGlobalScope": false
       },
       "../src/tasks/pipes/task-status-validation.pipe.ts": {
@@ -3107,8 +3107,8 @@
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.controller.ts": {
-        "version": "7e35dda79d2ce655f7abc04d707bb009af20a0ea8c4a8cf92f963188e3c85264",
-        "signature": "3a556c8cf22499c5edf2c914bf916f1e26193f23d4a6485b09fea116cd313e33",
+        "version": "b4ec0710a9bee0e60b3ccf1eb57e6f9d463fa2a74fbfe89b5977d52df47830ff",
+        "signature": "e8144811a56e3cdbf5710c137da287108e5e372b8666ffea57a5df586c970f95",
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.module.ts": {
@@ -10860,13 +10860,13 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/typeorm/index.d.ts",
         "../src/tasks/dto/create-task.dto.ts",
+        "../src/tasks/dto/get-tasks-filter.dto.ts",
         "../src/tasks/task-status.enum.ts",
         "../src/tasks/task.entity.ts"
       ],
       "../src/tasks/tasks.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/console.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
@@ -17879,6 +17879,7 @@
       "../src/tasks/task.repository.ts": [
         "../node_modules/typeorm/index.d.ts",
         "../src/tasks/dto/create-task.dto.ts",
+        "../src/tasks/dto/get-tasks-filter.dto.ts",
         "../src/tasks/task.entity.ts"
       ],
       "../src/tasks/tasks.controller.ts": [
