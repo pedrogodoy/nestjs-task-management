@@ -3097,8 +3097,8 @@
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.service.ts": {
-        "version": "97c98dad86b68137d3fb78aca251b6d847a26ac3ca0bba63ae231e92f6189fb4",
-        "signature": "938ffd1c17d21e3a35861b797e004255570f6d28b710b5e6801c155afe6c697b",
+        "version": "74678c30b224a1c3cb561d7405467b6800d41a105da1d6973cc0b74db0f536b4",
+        "signature": "7bf2e1ecbfff1830a44a28e90439ac9cdf02b8a9206330c13d252647aa29c506",
         "affectsGlobalScope": false
       },
       "../src/tasks/pipes/task-status-validation.pipe.ts": {
@@ -3107,8 +3107,8 @@
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.controller.ts": {
-        "version": "b8500c3f454fda54d7d6f862457eb918a4ae881ff9557e90760f400775bfe8af",
-        "signature": "4cc753871ca77653e46e9d2becc34b81ffce17e8c208e181da983469d631be74",
+        "version": "b35f22e130dcc02a3739a6094ad92349cf4287fd4c413c77a25c639e61c93f2a",
+        "signature": "a31eabe4a1aeb61adebd5a46e4452daed7f7cca87acaf0596065a1b283549cf3",
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.module.ts": {
@@ -10873,6 +10873,7 @@
         "../src/tasks/dto/create-task.dto.ts",
         "../src/tasks/dto/get-tasks-filter.dto.ts",
         "../src/tasks/pipes/task-status-validation.pipe.ts",
+        "../src/tasks/task-status.enum.ts",
         "../src/tasks/task.entity.ts",
         "../src/tasks/tasks.service.ts"
       ],
@@ -10900,7 +10901,8 @@
         "../src/tasks/dto/get-tasks-filter.dto.ts",
         "../src/tasks/task-status.enum.ts",
         "../src/tasks/task.entity.ts",
-        "../src/tasks/task.repository.ts"
+        "../src/tasks/task.repository.ts",
+        "../src/tasks/tasks.module.ts"
       ]
     },
     "exportedModulesMap": {
@@ -17880,11 +17882,13 @@
       ],
       "../src/tasks/tasks.controller.ts": [
         "../src/tasks/dto/create-task.dto.ts",
+        "../src/tasks/task-status.enum.ts",
         "../src/tasks/task.entity.ts",
         "../src/tasks/tasks.service.ts"
       ],
       "../src/tasks/tasks.service.ts": [
         "../src/tasks/dto/create-task.dto.ts",
+        "../src/tasks/task-status.enum.ts",
         "../src/tasks/task.entity.ts",
         "../src/tasks/task.repository.ts"
       ]
