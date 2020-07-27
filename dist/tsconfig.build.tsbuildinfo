@@ -3097,8 +3097,8 @@
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.service.ts": {
-        "version": "74678c30b224a1c3cb561d7405467b6800d41a105da1d6973cc0b74db0f536b4",
-        "signature": "7bf2e1ecbfff1830a44a28e90439ac9cdf02b8a9206330c13d252647aa29c506",
+        "version": "a2bdebe19e60351b7d9095a4d958e883c23fcbfb480b039c50308e6887015225",
+        "signature": "a4654f2a09d18b0bd02060f3a695a81ae21d938558a785760d9a8a1edd8659de",
         "affectsGlobalScope": false
       },
       "../src/tasks/pipes/task-status-validation.pipe.ts": {
@@ -3107,8 +3107,8 @@
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.controller.ts": {
-        "version": "b35f22e130dcc02a3739a6094ad92349cf4287fd4c413c77a25c639e61c93f2a",
-        "signature": "a31eabe4a1aeb61adebd5a46e4452daed7f7cca87acaf0596065a1b283549cf3",
+        "version": "7e35dda79d2ce655f7abc04d707bb009af20a0ea8c4a8cf92f963188e3c85264",
+        "signature": "3a556c8cf22499c5edf2c914bf916f1e26193f23d4a6485b09fea116cd313e33",
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.module.ts": {
@@ -10866,6 +10866,7 @@
       "../src/tasks/tasks.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/console.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
@@ -17882,12 +17883,14 @@
       ],
       "../src/tasks/tasks.controller.ts": [
         "../src/tasks/dto/create-task.dto.ts",
+        "../src/tasks/dto/get-tasks-filter.dto.ts",
         "../src/tasks/task-status.enum.ts",
         "../src/tasks/task.entity.ts",
         "../src/tasks/tasks.service.ts"
       ],
       "../src/tasks/tasks.service.ts": [
         "../src/tasks/dto/create-task.dto.ts",
+        "../src/tasks/dto/get-tasks-filter.dto.ts",
         "../src/tasks/task-status.enum.ts",
         "../src/tasks/task.entity.ts",
         "../src/tasks/task.repository.ts"
