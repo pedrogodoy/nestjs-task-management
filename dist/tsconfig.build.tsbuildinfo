@@ -3127,13 +3127,13 @@
         "affectsGlobalScope": false
       },
       "../src/auth/user.entity.ts": {
-        "version": "3ed80e7e3c21d6926bd2d32214fc326b380e4866e1c33674bba6e5ebac883186",
-        "signature": "c954094fcc939529bd954e366fb8e69b3c5cbe5a07f80666938f4e0d69da7325",
+        "version": "65a73c8fc3f4cc0718787b4be2fd806905a56b2c4b97f654ada451ce1432acfc",
+        "signature": "b5be5e0651b093933af9edb617504b874ecc6fc15948c351925836ec10a24a57",
         "affectsGlobalScope": false
       },
       "../src/auth/user.repository.ts": {
-        "version": "b308fa9f0e303abc2f55df2d5ed2e85c1e9f0c5fe8b9d1f53b722bfe321b7f37",
-        "signature": "b590a6e0911bb31bcabcf6f29ab4370f7ab1cd00a7caf3a5bd42836fff277dcc",
+        "version": "5511633da21c06d165a271b186d0ae8ad915db005d18b3a0fb9fbfeed0e11eca",
+        "signature": "4571c8614daa34810f8f67c8e8ef40c1784008c997111bde6a98e7953b73eeeb",
         "affectsGlobalScope": false
       },
       "../src/auth/auth.service.ts": {
@@ -10874,6 +10874,7 @@
         "../node_modules/typeorm/index.d.ts"
       ],
       "../src/auth/user.repository.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
