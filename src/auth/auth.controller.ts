@@ -14,7 +14,7 @@ export class AuthController {
     }
 
     @Post('signin')
-    signIn(@Body(ValidationPipe) auhCredentialsDto: AuthCredentialsDto) {
+    signIn(@Body(ValidationPipe) auhCredentialsDto: AuthCredentialsDto): Promise<{acessToken: string}> {
         return this.authService.signIn(auhCredentialsDto);
     }
 }

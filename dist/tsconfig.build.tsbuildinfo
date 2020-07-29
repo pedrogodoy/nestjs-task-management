@@ -3136,16 +3136,6 @@
         "signature": "b255fac59796216fdc0e52b1577bab9258a4d37e9c353abbcc23c45172b7b4c6",
         "affectsGlobalScope": false
       },
-      "../src/auth/auth.service.ts": {
-        "version": "96b32c406f0476640328d12b248c8d1d43e2192b377954a2047a1a095d9ce50c",
-        "signature": "5ca1d40e481c46b3962b3834bf8d7180a8d4e753f6b11e34eeb2ae3bdcd40230",
-        "affectsGlobalScope": false
-      },
-      "../src/auth/auth.controller.ts": {
-        "version": "1a499b917349f16c48ab1af030ec9f0cc7be116ebac379d43cc1b531b1cc3169",
-        "signature": "24b6da0485ba9bb2b6c540dadfb6fb7a3719edbeb77b51784765e26643658201",
-        "affectsGlobalScope": false
-      },
       "../node_modules/@types/node/globals.d.ts": {
         "version": "86dd4bc57259052b7a32fb8ca1767d43f146c199b0ca145e0b7dcad4b8628310",
         "signature": "86dd4bc57259052b7a32fb8ca1767d43f146c199b0ca145e0b7dcad4b8628310",
@@ -3429,6 +3419,21 @@
       "../node_modules/@nestjs/jwt/index.d.ts": {
         "version": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
+        "affectsGlobalScope": false
+      },
+      "../src/auth/jwt-payload.interface.ts": {
+        "version": "0dc48a1c29b73f24a90c96c455f05a4b99f8426e6cb401213adf58cc5df80dc3",
+        "signature": "b8bb225edaede9acff37b448bd38eb78841819af2604e16b5b8135568d7c995a",
+        "affectsGlobalScope": false
+      },
+      "../src/auth/auth.service.ts": {
+        "version": "725cf8009f0f0a7da1e117bb9a8396bf6daab711d8fe788d9adf3ca3a6f57fcf",
+        "signature": "295d8cbad5dc8e713f8264c3da5cc0297d9dcb08aa8834beb153cac4172a0538",
+        "affectsGlobalScope": false
+      },
+      "../src/auth/auth.controller.ts": {
+        "version": "6209f4e0c4a05aa32a86eed89c64df708f0328c81864ed4e0ba4f82dbff2c6a2",
+        "signature": "fb59c054392b18a93d8b5b81d81957e960109dcf1746380f6837cc5a5426ef6a",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/passport/dist/abstract.strategy.d.ts": {
@@ -11084,6 +11089,7 @@
       ],
       "../src/auth/auth.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/jwt/index.d.ts",
         "../node_modules/@nestjs/typeorm/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -11091,6 +11097,7 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../src/auth/dto/auth-credentials.dto.ts",
+        "../src/auth/jwt-payload.interface.ts",
         "../src/auth/user.repository.ts"
       ],
       "../src/auth/dto/auth-credentials.dto.ts": [
@@ -11100,6 +11107,13 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/class-validator/types/index.d.ts"
+      ],
+      "../src/auth/jwt-payload.interface.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
       ],
       "../src/auth/user.entity.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -18343,6 +18357,7 @@
         "../src/auth/dto/auth-credentials.dto.ts"
       ],
       "../src/auth/auth.service.ts": [
+        "../node_modules/@nestjs/jwt/index.d.ts",
         "../src/auth/dto/auth-credentials.dto.ts",
         "../src/auth/user.repository.ts"
       ],
