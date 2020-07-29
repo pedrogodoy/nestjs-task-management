@@ -3481,9 +3481,14 @@
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
         "affectsGlobalScope": false
       },
+      "../src/auth/get-user.decorator.ts": {
+        "version": "2b680c5bb917c989e94e7e5d7ceb56ff8cac183d66a1ef3a7d92850a43d74e2c",
+        "signature": "2edbd67ef5c8b5f94d7abaea90ab48657ff66e5277a1409c425ff253daa65751",
+        "affectsGlobalScope": false
+      },
       "../src/auth/auth.controller.ts": {
-        "version": "fc77ff3f8a5a3cef11e0470e6a23d07ae647cc82ed4d25b14907445b9774c895",
-        "signature": "a3f964abf86f3ba751b3c24f69330f1f9e50b63e6a50aa9292253b5465775306",
+        "version": "5d0c53f58c7264c8c6e518d6f7a831d796751a103c36f5acbd26d7b091312291",
+        "signature": "7155fb603a69e83538e2a5f54d10adf58eb67b1d08ad720290402fbebd3065a9",
         "affectsGlobalScope": false
       },
       "../src/auth/jwt-strategy.ts": {
@@ -11077,7 +11082,9 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../src/auth/auth.service.ts",
-        "../src/auth/dto/auth-credentials.dto.ts"
+        "../src/auth/dto/auth-credentials.dto.ts",
+        "../src/auth/get-user.decorator.ts",
+        "../src/auth/user.entity.ts"
       ],
       "../src/auth/auth.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -11114,6 +11121,15 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/class-validator/types/index.d.ts"
+      ],
+      "../src/auth/get-user.decorator.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/auth/user.entity.ts"
       ],
       "../src/auth/jwt-payload.interface.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -18374,7 +18390,8 @@
       ],
       "../src/auth/auth.controller.ts": [
         "../src/auth/auth.service.ts",
-        "../src/auth/dto/auth-credentials.dto.ts"
+        "../src/auth/dto/auth-credentials.dto.ts",
+        "../src/auth/user.entity.ts"
       ],
       "../src/auth/auth.service.ts": [
         "../node_modules/@nestjs/jwt/index.d.ts",
