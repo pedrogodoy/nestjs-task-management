@@ -3102,8 +3102,8 @@
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.service.ts": {
-        "version": "bdc374017c7240a161c62062e662d381f83ca1b1bfd088a8e2f0beee804aa49d",
-        "signature": "8bfc2b6648e1edeab3fd252bd8d6e2d78253deae107c3b17f96b4cd37a0a4ec2",
+        "version": "7e69288fe72e6efd24f8421e5daee9124c3306eb277a3c6074aa6b29e11db791",
+        "signature": "8d4e5d95914cf3dd5f52a5c2b431f82e330d624557d41ada46165cfc694797c9",
         "affectsGlobalScope": false
       },
       "../src/tasks/pipes/task-status-validation.pipe.ts": {
@@ -3167,8 +3167,8 @@
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.controller.ts": {
-        "version": "ca8c7a29b428300dd70c426a77e1b501689fe5cda09c3831d804bf3ed1952626",
-        "signature": "797377fd7966c0a87d893812cee186568f1ce16ec21a3b7d1d5ce74c88a2faf2",
+        "version": "f9d11ae64b576677ee41d63de253f1916311c868115e88942e18b7336099da1b",
+        "signature": "d54aed6dbdf64ac25c7c1cb3a51e1dbc3961273061b9cce1b459911f2f6c6262",
         "affectsGlobalScope": false
       },
       "../src/auth/dto/auth-credentials.dto.ts": {
@@ -18446,7 +18446,6 @@
         "../src/auth/user.entity.ts",
         "../src/tasks/dto/create-task.dto.ts",
         "../src/tasks/dto/get-tasks-filter.dto.ts",
-        "../src/tasks/task-status.enum.ts",
         "../src/tasks/task.entity.ts",
         "../src/tasks/tasks.service.ts"
       ],
@@ -18454,7 +18453,6 @@
         "../src/auth/user.entity.ts",
         "../src/tasks/dto/create-task.dto.ts",
         "../src/tasks/dto/get-tasks-filter.dto.ts",
-        "../src/tasks/task-status.enum.ts",
         "../src/tasks/task.entity.ts",
         "../src/tasks/task.repository.ts"
       ]
