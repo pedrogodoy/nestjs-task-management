@@ -3052,8 +3052,8 @@
         "affectsGlobalScope": false
       },
       "../src/tasks/task.repository.ts": {
-        "version": "a5d39707acb77a7aeb17e3d6b7510876192b1988398a2bf09a572e07daef7d5d",
-        "signature": "b480f690bbabe94fabe7cd2f2c4d5dcef65cbe7545557960a47ce27d5ed20b66",
+        "version": "3bfe3586b5064340363042e7eb6d6d3fc94c69a4ad8a28ceaa40af20092ce89b",
+        "signature": "5274f896280035d54d927e4f61225a01a8a3cd2aad0c26e3cd83ae11227a63d8",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/typeorm/dist/interfaces/entity-class-or-schema.type.d.ts": {
@@ -3167,8 +3167,8 @@
         "affectsGlobalScope": false
       },
       "../src/tasks/tasks.controller.ts": {
-        "version": "72741b0c2c1ec77d00de5f35874fb536656cd8eeb15d0dc42cb6ab6999bbc07e",
-        "signature": "8b40918ce76172cde861179f49a429e91af24c42a3080e4499d881a32607afba",
+        "version": "a4f6f3e4899c881bdd06af486612c5352f6d1efdf966191a26eeab6485c95b3f",
+        "signature": "638593d66f41aa83c60d55ac3f8f9bba30a5d5590405670fb7e96cae6dfb785e",
         "affectsGlobalScope": false
       },
       "../src/auth/dto/auth-credentials.dto.ts": {
@@ -3472,8 +3472,8 @@
         "affectsGlobalScope": false
       },
       "../src/auth/auth.service.ts": {
-        "version": "725cf8009f0f0a7da1e117bb9a8396bf6daab711d8fe788d9adf3ca3a6f57fcf",
-        "signature": "295d8cbad5dc8e713f8264c3da5cc0297d9dcb08aa8834beb153cac4172a0538",
+        "version": "c5878c598723b58a4d935a22bc4372fcdb37fce20026021df447a2f455eee1e2",
+        "signature": "0c279109b932d25cda95b83e390e9cdf1589b964e32fd931f576438a8d9baed2",
         "affectsGlobalScope": false
       },
       "../src/auth/auth.controller.ts": {
@@ -3687,7 +3687,7 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "e25d9bd8f80b6ffbcc8826ed1b407e747e4fbe346c5bab62cbe5837da4eeb189",
+        "version": "4e09d4f485b0ec9649c3479bcfce2caec1d1208b6d978abed542b1f91bbb9bb8",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -11180,6 +11180,7 @@
         "../node_modules/@types/node/util.d.ts"
       ],
       "../src/main.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/core/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -11232,6 +11233,7 @@
         "../src/tasks/task-status.enum.ts"
       ],
       "../src/tasks/task.repository.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
